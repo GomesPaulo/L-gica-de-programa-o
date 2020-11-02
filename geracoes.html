@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // Criando Funções
+    function pulaLinha(){
+        document.write(".<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    // Criando váriaveis
+
+    var primeiroAno = 1500;
+    var anoAtual = 2020;
+    var calcula = Math.round((anoAtual-primeiroAno)/28);
+
+    mostra("O número de gerações que se passaram até aqui são " + calcula);
+
+
+</script>
